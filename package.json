@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Jira Pixel-Perfect Clone - MERN Architecture",
   "scripts": {
+    "build": "npm --prefix client run build",
     "client": "npm --prefix client run dev",
     "server": "npm --prefix server start",
     "dev": "npm --prefix client run dev"
