@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 44px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #172b4d;
+  letter-spacing: -0.2px;
+}
+
+.tabList {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background-color: #f1f2f4;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 14px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #44546f;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.tab:hover {
+  color: #172b4d;
+  background-color: rgba(9, 30, 66, 0.04);
+}
+
+.activeTab {
+  background-color: #ffffff;
+  color: #172b4d;
+  font-weight: 600;
+  border: 1px solid #dfe1e6;
+  box-shadow: 0 1px 2px rgba(9, 30, 66, 0.08);
+}
+
+.activeTab:hover {
+  background-color: #ffffff;
+}
+
+.badge {
+  background-color: #0c66e4;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 10px;
+  line-height: 1.25;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .tabList {
+    flex-wrap: wrap;
+  }
+}

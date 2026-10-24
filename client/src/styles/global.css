@@ -1,0 +1,50 @@
+:root {
+  --ds-text: #172b4d;
+  --ds-text-subtle: #5e6c84;
+  --ds-text-subtlest: #8590a2;
+  --ds-text-selected: #0c66e4;
+  --ds-background-selected: #deebff;
+  --ds-border: #dfe1e6;
+  --ds-border-light: #ebecf0;
+  --ds-border-focused: #388bff;
+  --ds-surface: #ffffff;
+  --ds-surface-hovered: #f7f8f9;
+  --ds-primary: #0c66e4;
+  --ds-primary-hover: #0052cc;
+  --ds-purple: #6554c0;
+  --ds-purple-border: #8777d9;
+  --ds-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--ds-font-family);
+  color: var(--ds-text);
+  background-color: var(--ds-surface);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+input {
+  font-family: inherit;
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

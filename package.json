@@ -1,0 +1,13 @@
+{
+  "name": "jira-mern",
+  "version": "1.0.0",
+  "description": "Jira Pixel-Perfect Clone - MERN Architecture",
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server start",
+    "dev": "npm --prefix client run dev"
+  },
+  "keywords": ["jira", "mern", "react", "vite"],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,155 @@
+.sidebar {
+  width: 320px;
+  min-width: 320px;
+  height: calc(100vh - 52px);
+  background-color: #ffffff;
+  border-right: 1px solid #dfe1e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px 12px;
+  position: sticky;
+  top: 52px;
+  overflow-y: auto;
+}
+
+.navSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 4px;
+  color: #172b4d;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.15s ease;
+  user-select: none;
+}
+
+.navItem:hover {
+  background-color: #f1f2f4;
+}
+
+.itemLeft {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.itemIcon {
+  color: #44546f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+}
+
+.activeItem {
+  background-color: #deebff;
+  color: #0c66e4;
+  font-weight: 600;
+}
+
+.activeItem:hover {
+  background-color: #deebff;
+}
+
+.activeItem .itemIcon {
+  color: #0c66e4;
+}
+
+.activeItem .navLabel {
+  color: #0c66e4;
+  font-weight: 600;
+}
+
+.navLabel {
+  font-size: 14px;
+  color: #172b4d;
+}
+
+.spacesActions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #5e6c84;
+}
+
+.subActionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  color: #5e6c84;
+}
+
+.subActionBtn:hover {
+  background-color: #e9ebef;
+  color: #172b4d;
+}
+
+.spacesHelpText {
+  font-size: 12px;
+  line-height: 1.45;
+  color: #5e6c84;
+  padding: 4px 12px 10px 46px;
+  user-select: none;
+}
+
+.sectionHeader {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5e6c84;
+  padding: 16px 12px 6px 12px;
+  user-select: none;
+}
+
+.tryBadge {
+  font-size: 11px;
+  font-weight: 600;
+  color: #6554c0;
+  border: 1px solid #8777d9;
+  border-radius: 3px;
+  padding: 1px 6px;
+  line-height: 1.25;
+  background-color: #f8f6fc;
+}
+
+.rightIcon {
+  color: #5e6c84;
+}
+
+.bottomSection {
+  padding-top: 12px;
+  border-top: 1px solid #dfe1e6;
+  margin-top: auto;
+}
+
+.customizeBtn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: 38px;
+  padding: 0 12px;
+  border-radius: 4px;
+  color: #44546f;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.15s ease;
+}
+
+.customizeBtn:hover {
+  background-color: #f1f2f4;
+  color: #172b4d;
+}
